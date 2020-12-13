@@ -7,3 +7,7 @@ MNIST classification in Pytorch, the accuracy of the test set is 99.7%
 - Dropout
 - Data augmentation
 - Multiple model voting
+
+# 28 incorrectly identified images
+
+# Useful links

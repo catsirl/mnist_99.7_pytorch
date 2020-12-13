@@ -100,11 +100,11 @@ transform = transforms.Compose([
 
 for n_network in range(num_networks):
 
-  model = model_list[n_network]
-  criterion = nn.CrossEntropyLoss()
-  optimizer = optim.Adam(model.parameters(),lr = 0.001)
-  device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-  model.to(device)
+    model = model_list[n_network]
+    criterion = nn.CrossEntropyLoss()
+    optimizer = optim.Adam(model.parameters(),lr = 0.001)
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    model.to(device)
 
 	for epoch in range(epochs):
 
